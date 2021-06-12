@@ -27,6 +27,7 @@ export default class CreateDuplicatePage extends Component {
 
     <input type="text" className="form-control" id="createText" name='createText' value={createText} onChange={handleChange}  />
     <strong>to get update count use {`{update}`} inside text </strong>
+    <strong>to get the text inserted now use {`{text}`} inside text </strong>
   </div>
           {
                               duplicateSpinner &&   <Loader className='text-center mb-2'

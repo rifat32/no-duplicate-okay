@@ -382,11 +382,16 @@ insertText = (e) => {
 // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 copyLink = (key,id) => {
     let count = this.state.updateCount;
+    let text = this.state.text;
     if(count > 1) {
         key = key.replace(/{update}/g, count)
     } else {
         key = key.replace(/{update}/g, '')
     }
+    if(text){
+        key = key.replace(/{text}/g, text)
+    }
+   
     
 
     const tempInput = document.createElement("input");

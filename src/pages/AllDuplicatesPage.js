@@ -69,6 +69,8 @@ const {duplicates,deleteDuplicate,editDupicate,editTitle,handleChange,editText,u
     <label htmlFor="editText" className="form-label">Enter Text</label>
     <input type="text" className="form-control" id="editText" name='editText' value={editText} onChange={handleChange}  />
   </div>
+  <strong>to get update count use {`{update}`} inside text </strong>
+    <strong>to get the text inserted now use {`{text}`} inside text </strong>
           {
                               updateSpinner &&   <Loader className='text-center mb-2'
                               type="Puff"
