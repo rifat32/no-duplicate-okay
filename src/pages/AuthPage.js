@@ -7,9 +7,9 @@ export default class LoginPage extends Component {
     render() {
         return (
             <div className='container bg-primary'>
-                        <div className='d-flex justify-content-center align-items-center' style={{height:"120vh"}}>
+                        <div className='d-flex justify-content-center align-items-center' style={{height:"140vh"}}>
 
-                            <div className='mt-5 w-50 mx-auto'>
+                            <div className=' w-50 mx-auto'>
               <h3 className='text-center'>Login</h3>
                                <Login/>
               <h3 className='text-center mt-3'>Register</h3>
